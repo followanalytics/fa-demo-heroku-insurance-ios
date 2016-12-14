@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="AdelleSans-Thin.otf">
+            <string>AdelleSans-Thin</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="0yv-Kx-eGF" customClass="FATableHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="467" height="74.5"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VTa-9N-q4l">
+                    <rect key="frame" x="0.0" y="0.0" width="467" height="74.5"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="editIcon" translatesAutoresizingMaskIntoConstraints="NO" id="1kD-ZR-EVB">
+                            <rect key="frame" x="439" y="32" width="13" height="12"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LIr-r3-nEW">
+                            <rect key="frame" x="16" y="25" width="49" height="25"/>
+                            <fontDescription key="fontDescription" name="AdelleSans-Thin" family="Adelle Sans" pointSize="20"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="1kD-ZR-EVB" firstAttribute="centerY" secondItem="VTa-9N-q4l" secondAttribute="centerY" id="Jb9-pj-ZQn"/>
+                        <constraint firstItem="LIr-r3-nEW" firstAttribute="leading" secondItem="VTa-9N-q4l" secondAttribute="leading" constant="16" id="n9C-9e-4hr"/>
+                        <constraint firstAttribute="trailing" secondItem="1kD-ZR-EVB" secondAttribute="trailing" constant="15" id="pLX-Vk-dPv"/>
+                        <constraint firstItem="LIr-r3-nEW" firstAttribute="centerY" secondItem="VTa-9N-q4l" secondAttribute="centerY" id="tV0-Zp-dim"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="VTa-9N-q4l" firstAttribute="leading" secondItem="0yv-Kx-eGF" secondAttribute="leading" id="G0w-R2-bUJ"/>
+                <constraint firstItem="VTa-9N-q4l" firstAttribute="width" secondItem="0yv-Kx-eGF" secondAttribute="width" id="JD9-IH-7V8"/>
+                <constraint firstItem="VTa-9N-q4l" firstAttribute="height" secondItem="0yv-Kx-eGF" secondAttribute="height" id="aNv-FN-lby"/>
+                <constraint firstItem="VTa-9N-q4l" firstAttribute="top" secondItem="0yv-Kx-eGF" secondAttribute="top" id="dta-pf-EIW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="editIcon" destination="1kD-ZR-EVB" id="Dvg-QN-NCf"/>
+                <outlet property="titleLabel" destination="LIr-r3-nEW" id="KHh-YP-JGf"/>
+            </connections>
+            <point key="canvasLocation" x="418.5" y="560.25"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="editIcon" width="13" height="12"/>
+    </resources>
+</document>

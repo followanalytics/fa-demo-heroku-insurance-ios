@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController modalPresentationStyle="overFullScreen" id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchImage" translatesAutoresizingMaskIntoConstraints="NO" id="rJv-Zj-VKM">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rJv-Zj-VKM" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="4ga-DO-05B"/>
+                            <constraint firstItem="rJv-Zj-VKM" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="6tv-Ya-d1g"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="rJv-Zj-VKM" secondAttribute="bottom" id="C0H-cA-mAo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rJv-Zj-VKM" secondAttribute="trailing" constant="-20" id="I2S-Nx-zxS"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="rJv-Zj-VKM" secondAttribute="bottom" id="NMD-12-zGk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rJv-Zj-VKM" secondAttribute="trailing" id="qoD-Fv-ffu"/>
+                            <constraint firstItem="rJv-Zj-VKM" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="wnf-qh-yYo"/>
+                            <constraint firstItem="rJv-Zj-VKM" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="y2k-6W-sOD"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="6tv-Ya-d1g"/>
+                                <exclude reference="qoD-Fv-ffu"/>
+                                <exclude reference="wnf-qh-yYo"/>
+                                <exclude reference="NMD-12-zGk"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launchImage" width="188" height="334"/>
+    </resources>
+</document>

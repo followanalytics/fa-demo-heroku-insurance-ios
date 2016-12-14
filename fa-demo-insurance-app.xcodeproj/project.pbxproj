@@ -1,0 +1,907 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE1B43FB1CD8EEA80011B18F /* FAConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1B43FA1CD8EEA80011B18F /* FAConstants.m */; };
+		AE32CBF51E0160470062B7C3 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE32CBF41E0160470062B7C3 /* UserNotifications.framework */; };
+		AE49E3311CCF5CC7009009E1 /* FATableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE49E3301CCF5CC7009009E1 /* FATableFooterView.m */; };
+		AE49E3331CCF5CEF009009E1 /* FATableFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE49E3321CCF5CEF009009E1 /* FATableFooterView.xib */; };
+		AE49E33A1CCF6DFA009009E1 /* FADetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE49E3391CCF6DFA009009E1 /* FADetailViewController.m */; };
+		AE49E33F1CCFC56E009009E1 /* FADetailCarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE49E33E1CCFC56E009009E1 /* FADetailCarView.m */; };
+		AE49E3411CCFC580009009E1 /* FADetailCarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE49E3401CCFC580009009E1 /* FADetailCarView.xib */; };
+		AE49E3441CCFC7B8009009E1 /* FANotification.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE49E3431CCFC7B8009009E1 /* FANotification.xib */; };
+		AE49E3471CCFC7D7009009E1 /* FANotification.m in Sources */ = {isa = PBXBuildFile; fileRef = AE49E3461CCFC7D7009009E1 /* FANotification.m */; };
+		AE49E34E1CD11BA4009009E1 /* FADetailPropertyView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE49E34D1CD11BA4009009E1 /* FADetailPropertyView.m */; };
+		AE49E3501CD11BB7009009E1 /* FADetailPropertyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE49E34F1CD11BB7009009E1 /* FADetailPropertyView.xib */; };
+		AE49E3511CD255E9009009E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA5584F1CC8FD4C002B7994 /* LaunchScreen.storyboard */; };
+		AE49E3541CD263DE009009E1 /* FATravelController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE49E3531CD263DE009009E1 /* FATravelController.m */; };
+		AE49E3571CD2700E009009E1 /* FATravelAddController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE49E3561CD2700E009009E1 /* FATravelAddController.m */; };
+		AE49E35B1CD3B956009009E1 /* FollowApps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE49E35A1CD3B956009009E1 /* FollowApps.framework */; };
+		AE49E35C1CD3B956009009E1 /* FollowApps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE49E35A1CD3B956009009E1 /* FollowApps.framework */; };
+		AE49E35D1CD3B956009009E1 /* FollowApps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE49E35A1CD3B956009009E1 /* FollowApps.framework */; };
+		AE49E35F1CD3B9B6009009E1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE49E35E1CD3B9B6009009E1 /* Security.framework */; };
+		AE49E3611CD3B9C0009009E1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE49E3601CD3B9C0009009E1 /* SystemConfiguration.framework */; };
+		AE49E3631CD3B9CD009009E1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE49E3621CD3B9CD009009E1 /* CoreTelephony.framework */; };
+		AE49E3651CD3B9D9009009E1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE49E3641CD3B9D9009009E1 /* CoreLocation.framework */; };
+		AE49E3671CD3B9E2009009E1 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE49E3661CD3B9E2009009E1 /* PassKit.framework */; };
+		AE49E3691CD3B9F8009009E1 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AE49E3681CD3B9F8009009E1 /* libc++.tbd */; };
+		AE49E36B1CD3BA08009009E1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AE49E36A1CD3BA08009009E1 /* libsqlite3.tbd */; };
+		AE7BD2741CCCF09400F8E3B7 /* FANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7BD2731CCCF09400F8E3B7 /* FANavigationController.m */; };
+		AE7BD2761CCCF0FC00F8E3B7 /* FANavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE7BD2751CCCF0FC00F8E3B7 /* FANavigationBar.xib */; };
+		AE7BD2791CCCF14700F8E3B7 /* FANavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7BD2781CCCF14700F8E3B7 /* FANavigationBar.m */; };
+		AE7BD27F1CCCFC2900F8E3B7 /* UINavigationBar+FANavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7BD27E1CCCFC2900F8E3B7 /* UINavigationBar+FANavigationBar.m */; };
+		AE7BD2821CCD0B0700F8E3B7 /* FACategoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7BD2811CCD0B0700F8E3B7 /* FACategoryController.m */; };
+		AE7BD2881CCD1F2800F8E3B7 /* FAContractDetailsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7BD2871CCD1F2800F8E3B7 /* FAContractDetailsCell.m */; };
+		AE7BD28B1CCD1F6B00F8E3B7 /* FAItemsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7BD28A1CCD1F6B00F8E3B7 /* FAItemsCell.m */; };
+		AE7BD2911CCD1FB100F8E3B7 /* FAClaimsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7BD2901CCD1FB100F8E3B7 /* FAClaimsCell.m */; };
+		AE7BD29A1CCD208300F8E3B7 /* FAClaimsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE7BD2971CCD208300F8E3B7 /* FAClaimsCell.xib */; };
+		AE7BD29B1CCD208300F8E3B7 /* FAContractDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE7BD2981CCD208300F8E3B7 /* FAContractDetailsCell.xib */; };
+		AE7BD29C1CCD208300F8E3B7 /* FAItemsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE7BD2991CCD208300F8E3B7 /* FAItemsCell.xib */; };
+		AE7BD29F1CCD68AA00F8E3B7 /* FATableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7BD29E1CCD68AA00F8E3B7 /* FATableHeaderView.m */; };
+		AE7BD2A11CCD68CA00F8E3B7 /* FATableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE7BD2A01CCD68CA00F8E3B7 /* FATableHeaderView.xib */; };
+		AE7BD2C91CCE383F00F8E3B7 /* AdelleSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE7BD2C81CCE383F00F8E3B7 /* AdelleSans-Bold.otf */; };
+		AE7BD2D71CCE384F00F8E3B7 /* AdelleSans-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE7BD2CA1CCE384F00F8E3B7 /* AdelleSans-BoldItalic.otf */; };
+		AE7BD2D81CCE384F00F8E3B7 /* AdelleSans-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE7BD2CB1CCE384F00F8E3B7 /* AdelleSans-ExtraBold.otf */; };
+		AE7BD2D91CCE384F00F8E3B7 /* AdelleSans-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE7BD2CC1CCE384F00F8E3B7 /* AdelleSans-ExtraBoldItalic.otf */; };
+		AE7BD2DA1CCE384F00F8E3B7 /* AdelleSans-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE7BD2CD1CCE384F00F8E3B7 /* AdelleSans-Heavy.otf */; };
+		AE7BD2DB1CCE384F00F8E3B7 /* AdelleSans-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE7BD2CE1CCE384F00F8E3B7 /* AdelleSans-HeavyItalic.otf */; };
+		AE7BD2DC1CCE384F00F8E3B7 /* AdelleSans-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE7BD2CF1CCE384F00F8E3B7 /* AdelleSans-Italic.otf */; };
+		AE7BD2DD1CCE384F00F8E3B7 /* AdelleSans-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE7BD2D01CCE384F00F8E3B7 /* AdelleSans-Light.otf */; };
+		AE7BD2DE1CCE384F00F8E3B7 /* AdelleSans-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE7BD2D11CCE384F00F8E3B7 /* AdelleSans-LightItalic.otf */; };
+		AE7BD2DF1CCE384F00F8E3B7 /* AdelleSans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE7BD2D21CCE384F00F8E3B7 /* AdelleSans-Regular.otf */; };
+		AE7BD2E01CCE384F00F8E3B7 /* AdelleSans-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE7BD2D31CCE384F00F8E3B7 /* AdelleSans-SemiBold.otf */; };
+		AE7BD2E11CCE384F00F8E3B7 /* AdelleSans-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE7BD2D41CCE384F00F8E3B7 /* AdelleSans-SemiBoldItalic.otf */; };
+		AE7BD2E21CCE384F00F8E3B7 /* AdelleSans-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE7BD2D51CCE384F00F8E3B7 /* AdelleSans-Thin.otf */; };
+		AE7BD2E31CCE384F00F8E3B7 /* AdelleSans-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE7BD2D61CCE384F00F8E3B7 /* AdelleSans-ThinItalic.otf */; };
+		AEA558431CC8FD4C002B7994 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA558421CC8FD4C002B7994 /* main.m */; };
+		AEA558461CC8FD4C002B7994 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA558451CC8FD4C002B7994 /* AppDelegate.m */; };
+		AEA5584C1CC8FD4C002B7994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA5584A1CC8FD4C002B7994 /* Main.storyboard */; };
+		AEA5584E1CC8FD4C002B7994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA5584D1CC8FD4C002B7994 /* Assets.xcassets */; };
+		AEA5585C1CC8FD4C002B7994 /* fa_demo_insurance_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA5585B1CC8FD4C002B7994 /* fa_demo_insurance_appTests.m */; };
+		AEA558671CC8FD4C002B7994 /* fa_demo_insurance_appUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA558661CC8FD4C002B7994 /* fa_demo_insurance_appUITests.m */; };
+		AEA5587A1CC905E8002B7994 /* FALoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA558791CC905E8002B7994 /* FALoginView.m */; };
+		AEA5587C1CC90609002B7994 /* FALoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEA5587B1CC90609002B7994 /* FALoginView.xib */; };
+		AEB6CAEF1CCA17E100C8F25E /* FAHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB6CAEE1CCA17E100C8F25E /* FAHomeViewController.m */; };
+		AEC814371D2A613B0026F164 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AEC814361D2A613B0026F164 /* Settings.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEA558581CC8FD4C002B7994 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEA558361CC8FD4C002B7994 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEA5583D1CC8FD4C002B7994;
+			remoteInfo = "fa-demo-insurance-app";
+		};
+		AEA558631CC8FD4C002B7994 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEA558361CC8FD4C002B7994 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEA5583D1CC8FD4C002B7994;
+			remoteInfo = "fa-demo-insurance-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE0FC51E1D93FD5F00B0053A /* fa-demo-insurance-app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "fa-demo-insurance-app.entitlements"; sourceTree = "<group>"; };
+		AE1B43F91CD8EEA80011B18F /* FAConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAConstants.h; sourceTree = "<group>"; };
+		AE1B43FA1CD8EEA80011B18F /* FAConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAConstants.m; sourceTree = "<group>"; };
+		AE32CBF41E0160470062B7C3 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		AE49E32F1CCF5CC7009009E1 /* FATableFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FATableFooterView.h; path = View/Cell/FATableFooterView.h; sourceTree = "<group>"; };
+		AE49E3301CCF5CC7009009E1 /* FATableFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FATableFooterView.m; path = View/Cell/FATableFooterView.m; sourceTree = "<group>"; };
+		AE49E3321CCF5CEF009009E1 /* FATableFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FATableFooterView.xib; path = View/Cell/FATableFooterView.xib; sourceTree = "<group>"; };
+		AE49E3381CCF6DFA009009E1 /* FADetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FADetailViewController.h; path = Controller/FADetailViewController.h; sourceTree = "<group>"; };
+		AE49E3391CCF6DFA009009E1 /* FADetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FADetailViewController.m; path = Controller/FADetailViewController.m; sourceTree = "<group>"; };
+		AE49E33D1CCFC56E009009E1 /* FADetailCarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FADetailCarView.h; path = View/FADetailCarView.h; sourceTree = "<group>"; };
+		AE49E33E1CCFC56E009009E1 /* FADetailCarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FADetailCarView.m; path = View/FADetailCarView.m; sourceTree = "<group>"; };
+		AE49E3401CCFC580009009E1 /* FADetailCarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FADetailCarView.xib; sourceTree = "<group>"; };
+		AE49E3431CCFC7B8009009E1 /* FANotification.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FANotification.xib; sourceTree = "<group>"; };
+		AE49E3451CCFC7D7009009E1 /* FANotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FANotification.h; path = View/FANotification.h; sourceTree = "<group>"; };
+		AE49E3461CCFC7D7009009E1 /* FANotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FANotification.m; path = View/FANotification.m; sourceTree = "<group>"; };
+		AE49E34C1CD11BA4009009E1 /* FADetailPropertyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FADetailPropertyView.h; path = View/FADetailPropertyView.h; sourceTree = "<group>"; };
+		AE49E34D1CD11BA4009009E1 /* FADetailPropertyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FADetailPropertyView.m; path = View/FADetailPropertyView.m; sourceTree = "<group>"; };
+		AE49E34F1CD11BB7009009E1 /* FADetailPropertyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FADetailPropertyView.xib; sourceTree = "<group>"; };
+		AE49E3521CD263DE009009E1 /* FATravelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FATravelController.h; sourceTree = "<group>"; };
+		AE49E3531CD263DE009009E1 /* FATravelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FATravelController.m; sourceTree = "<group>"; };
+		AE49E3551CD2700E009009E1 /* FATravelAddController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FATravelAddController.h; path = Controller/FATravelAddController.h; sourceTree = "<group>"; };
+		AE49E3561CD2700E009009E1 /* FATravelAddController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FATravelAddController.m; path = Controller/FATravelAddController.m; sourceTree = "<group>"; };
+		AE49E35A1CD3B956009009E1 /* FollowApps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FollowApps.framework; sourceTree = "<group>"; };
+		AE49E35E1CD3B9B6009009E1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		AE49E3601CD3B9C0009009E1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AE49E3621CD3B9CD009009E1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		AE49E3641CD3B9D9009009E1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AE49E3661CD3B9E2009009E1 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		AE49E3681CD3B9F8009009E1 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		AE49E36A1CD3BA08009009E1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		AE66C2621CCA773200252539 /* San Francisco */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "San Francisco"; sourceTree = "<group>"; };
+		AE7BD2721CCCF09400F8E3B7 /* FANavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FANavigationController.h; path = Controller/FANavigationController.h; sourceTree = "<group>"; };
+		AE7BD2731CCCF09400F8E3B7 /* FANavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FANavigationController.m; path = Controller/FANavigationController.m; sourceTree = "<group>"; };
+		AE7BD2751CCCF0FC00F8E3B7 /* FANavigationBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FANavigationBar.xib; sourceTree = "<group>"; };
+		AE7BD2771CCCF14700F8E3B7 /* FANavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FANavigationBar.h; path = NavigationBar/FANavigationBar.h; sourceTree = "<group>"; };
+		AE7BD2781CCCF14700F8E3B7 /* FANavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FANavigationBar.m; path = NavigationBar/FANavigationBar.m; sourceTree = "<group>"; };
+		AE7BD27D1CCCFC2900F8E3B7 /* UINavigationBar+FANavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+FANavigationBar.h"; path = "NavigationBar/UINavigationBar+FANavigationBar.h"; sourceTree = "<group>"; };
+		AE7BD27E1CCCFC2900F8E3B7 /* UINavigationBar+FANavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+FANavigationBar.m"; path = "NavigationBar/UINavigationBar+FANavigationBar.m"; sourceTree = "<group>"; };
+		AE7BD2801CCD0B0700F8E3B7 /* FACategoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FACategoryController.h; path = Controller/FACategoryController.h; sourceTree = "<group>"; };
+		AE7BD2811CCD0B0700F8E3B7 /* FACategoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FACategoryController.m; path = Controller/FACategoryController.m; sourceTree = "<group>"; };
+		AE7BD2861CCD1F2800F8E3B7 /* FAContractDetailsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FAContractDetailsCell.h; path = View/Cell/FAContractDetailsCell.h; sourceTree = "<group>"; };
+		AE7BD2871CCD1F2800F8E3B7 /* FAContractDetailsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FAContractDetailsCell.m; path = View/Cell/FAContractDetailsCell.m; sourceTree = "<group>"; };
+		AE7BD2891CCD1F6B00F8E3B7 /* FAItemsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FAItemsCell.h; path = View/Cell/FAItemsCell.h; sourceTree = "<group>"; };
+		AE7BD28A1CCD1F6B00F8E3B7 /* FAItemsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FAItemsCell.m; path = View/Cell/FAItemsCell.m; sourceTree = "<group>"; };
+		AE7BD28F1CCD1FB100F8E3B7 /* FAClaimsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FAClaimsCell.h; path = View/Cell/FAClaimsCell.h; sourceTree = "<group>"; };
+		AE7BD2901CCD1FB100F8E3B7 /* FAClaimsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FAClaimsCell.m; path = View/Cell/FAClaimsCell.m; sourceTree = "<group>"; };
+		AE7BD2971CCD208300F8E3B7 /* FAClaimsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FAClaimsCell.xib; path = View/Cell/FAClaimsCell.xib; sourceTree = "<group>"; };
+		AE7BD2981CCD208300F8E3B7 /* FAContractDetailsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FAContractDetailsCell.xib; path = View/Cell/FAContractDetailsCell.xib; sourceTree = "<group>"; };
+		AE7BD2991CCD208300F8E3B7 /* FAItemsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FAItemsCell.xib; path = View/Cell/FAItemsCell.xib; sourceTree = "<group>"; };
+		AE7BD29D1CCD68AA00F8E3B7 /* FATableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FATableHeaderView.h; path = View/Cell/FATableHeaderView.h; sourceTree = "<group>"; };
+		AE7BD29E1CCD68AA00F8E3B7 /* FATableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FATableHeaderView.m; path = View/Cell/FATableHeaderView.m; sourceTree = "<group>"; };
+		AE7BD2A01CCD68CA00F8E3B7 /* FATableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FATableHeaderView.xib; path = View/Cell/FATableHeaderView.xib; sourceTree = "<group>"; };
+		AE7BD2C81CCE383F00F8E3B7 /* AdelleSans-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AdelleSans-Bold.otf"; path = "Adelle Sans/AdelleSans-Bold.otf"; sourceTree = "<group>"; };
+		AE7BD2CA1CCE384F00F8E3B7 /* AdelleSans-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AdelleSans-BoldItalic.otf"; path = "Adelle Sans/AdelleSans-BoldItalic.otf"; sourceTree = "<group>"; };
+		AE7BD2CB1CCE384F00F8E3B7 /* AdelleSans-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AdelleSans-ExtraBold.otf"; path = "Adelle Sans/AdelleSans-ExtraBold.otf"; sourceTree = "<group>"; };
+		AE7BD2CC1CCE384F00F8E3B7 /* AdelleSans-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AdelleSans-ExtraBoldItalic.otf"; path = "Adelle Sans/AdelleSans-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		AE7BD2CD1CCE384F00F8E3B7 /* AdelleSans-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AdelleSans-Heavy.otf"; path = "Adelle Sans/AdelleSans-Heavy.otf"; sourceTree = "<group>"; };
+		AE7BD2CE1CCE384F00F8E3B7 /* AdelleSans-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AdelleSans-HeavyItalic.otf"; path = "Adelle Sans/AdelleSans-HeavyItalic.otf"; sourceTree = "<group>"; };
+		AE7BD2CF1CCE384F00F8E3B7 /* AdelleSans-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AdelleSans-Italic.otf"; path = "Adelle Sans/AdelleSans-Italic.otf"; sourceTree = "<group>"; };
+		AE7BD2D01CCE384F00F8E3B7 /* AdelleSans-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AdelleSans-Light.otf"; path = "Adelle Sans/AdelleSans-Light.otf"; sourceTree = "<group>"; };
+		AE7BD2D11CCE384F00F8E3B7 /* AdelleSans-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AdelleSans-LightItalic.otf"; path = "Adelle Sans/AdelleSans-LightItalic.otf"; sourceTree = "<group>"; };
+		AE7BD2D21CCE384F00F8E3B7 /* AdelleSans-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AdelleSans-Regular.otf"; path = "Adelle Sans/AdelleSans-Regular.otf"; sourceTree = "<group>"; };
+		AE7BD2D31CCE384F00F8E3B7 /* AdelleSans-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AdelleSans-SemiBold.otf"; path = "Adelle Sans/AdelleSans-SemiBold.otf"; sourceTree = "<group>"; };
+		AE7BD2D41CCE384F00F8E3B7 /* AdelleSans-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AdelleSans-SemiBoldItalic.otf"; path = "Adelle Sans/AdelleSans-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		AE7BD2D51CCE384F00F8E3B7 /* AdelleSans-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AdelleSans-Thin.otf"; path = "Adelle Sans/AdelleSans-Thin.otf"; sourceTree = "<group>"; };
+		AE7BD2D61CCE384F00F8E3B7 /* AdelleSans-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AdelleSans-ThinItalic.otf"; path = "Adelle Sans/AdelleSans-ThinItalic.otf"; sourceTree = "<group>"; };
+		AEA5583E1CC8FD4C002B7994 /* fa-demo-insurance-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fa-demo-insurance-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA558421CC8FD4C002B7994 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEA558441CC8FD4C002B7994 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEA558451CC8FD4C002B7994 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEA5584B1CC8FD4C002B7994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEA5584D1CC8FD4C002B7994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEA558501CC8FD4C002B7994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEA558521CC8FD4C002B7994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEA558571CC8FD4C002B7994 /* fa-demo-insurance-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fa-demo-insurance-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA5585B1CC8FD4C002B7994 /* fa_demo_insurance_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fa_demo_insurance_appTests.m; sourceTree = "<group>"; };
+		AEA5585D1CC8FD4C002B7994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEA558621CC8FD4C002B7994 /* fa-demo-insurance-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fa-demo-insurance-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA558661CC8FD4C002B7994 /* fa_demo_insurance_appUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fa_demo_insurance_appUITests.m; sourceTree = "<group>"; };
+		AEA558681CC8FD4C002B7994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEA558781CC905E8002B7994 /* FALoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FALoginView.h; path = View/FALoginView.h; sourceTree = "<group>"; };
+		AEA558791CC905E8002B7994 /* FALoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FALoginView.m; path = View/FALoginView.m; sourceTree = "<group>"; };
+		AEA5587B1CC90609002B7994 /* FALoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FALoginView.xib; path = View/FALoginView.xib; sourceTree = "<group>"; };
+		AEB6CAED1CCA17E100C8F25E /* FAHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FAHomeViewController.h; path = Controller/FAHomeViewController.h; sourceTree = "<group>"; };
+		AEB6CAEE1CCA17E100C8F25E /* FAHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FAHomeViewController.m; path = Controller/FAHomeViewController.m; sourceTree = "<group>"; };
+		AEC814361D2A613B0026F164 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEA5583B1CC8FD4C002B7994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE32CBF51E0160470062B7C3 /* UserNotifications.framework in Frameworks */,
+				AE49E36B1CD3BA08009009E1 /* libsqlite3.tbd in Frameworks */,
+				AE49E3691CD3B9F8009009E1 /* libc++.tbd in Frameworks */,
+				AE49E3671CD3B9E2009009E1 /* PassKit.framework in Frameworks */,
+				AE49E3651CD3B9D9009009E1 /* CoreLocation.framework in Frameworks */,
+				AE49E3631CD3B9CD009009E1 /* CoreTelephony.framework in Frameworks */,
+				AE49E3611CD3B9C0009009E1 /* SystemConfiguration.framework in Frameworks */,
+				AE49E35F1CD3B9B6009009E1 /* Security.framework in Frameworks */,
+				AE49E35B1CD3B956009009E1 /* FollowApps.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA558541CC8FD4C002B7994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE49E35C1CD3B956009009E1 /* FollowApps.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA5585F1CC8FD4C002B7994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE49E35D1CD3B956009009E1 /* FollowApps.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE1B43F81CD8EE6D0011B18F /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				AE49E35A1CD3B956009009E1 /* FollowApps.framework */,
+				AE49E36A1CD3BA08009009E1 /* libsqlite3.tbd */,
+				AE49E3681CD3B9F8009009E1 /* libc++.tbd */,
+				AE49E3661CD3B9E2009009E1 /* PassKit.framework */,
+				AE49E3641CD3B9D9009009E1 /* CoreLocation.framework */,
+				AE49E3621CD3B9CD009009E1 /* CoreTelephony.framework */,
+				AE49E3601CD3B9C0009009E1 /* SystemConfiguration.framework */,
+				AE49E35E1CD3B9B6009009E1 /* Security.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		AE32CBF31E0160470062B7C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE32CBF41E0160470062B7C3 /* UserNotifications.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE49E3281CCE6D23009009E1 /* AdelleSans */ = {
+			isa = PBXGroup;
+			children = (
+				AE7BD2CA1CCE384F00F8E3B7 /* AdelleSans-BoldItalic.otf */,
+				AE7BD2CB1CCE384F00F8E3B7 /* AdelleSans-ExtraBold.otf */,
+				AE7BD2CC1CCE384F00F8E3B7 /* AdelleSans-ExtraBoldItalic.otf */,
+				AE7BD2CD1CCE384F00F8E3B7 /* AdelleSans-Heavy.otf */,
+				AE7BD2CE1CCE384F00F8E3B7 /* AdelleSans-HeavyItalic.otf */,
+				AE7BD2CF1CCE384F00F8E3B7 /* AdelleSans-Italic.otf */,
+				AE7BD2D01CCE384F00F8E3B7 /* AdelleSans-Light.otf */,
+				AE7BD2D11CCE384F00F8E3B7 /* AdelleSans-LightItalic.otf */,
+				AE7BD2D21CCE384F00F8E3B7 /* AdelleSans-Regular.otf */,
+				AE7BD2D31CCE384F00F8E3B7 /* AdelleSans-SemiBold.otf */,
+				AE7BD2D41CCE384F00F8E3B7 /* AdelleSans-SemiBoldItalic.otf */,
+				AE7BD2D51CCE384F00F8E3B7 /* AdelleSans-Thin.otf */,
+				AE7BD2D61CCE384F00F8E3B7 /* AdelleSans-ThinItalic.otf */,
+				AE7BD2C81CCE383F00F8E3B7 /* AdelleSans-Bold.otf */,
+			);
+			name = AdelleSans;
+			sourceTree = "<group>";
+		};
+		AE49E32B1CCF5C8E009009E1 /* HeaderFooter */ = {
+			isa = PBXGroup;
+			children = (
+				AE7BD29D1CCD68AA00F8E3B7 /* FATableHeaderView.h */,
+				AE7BD29E1CCD68AA00F8E3B7 /* FATableHeaderView.m */,
+				AE7BD2A01CCD68CA00F8E3B7 /* FATableHeaderView.xib */,
+				AE49E32F1CCF5CC7009009E1 /* FATableFooterView.h */,
+				AE49E3301CCF5CC7009009E1 /* FATableFooterView.m */,
+				AE49E3321CCF5CEF009009E1 /* FATableFooterView.xib */,
+			);
+			name = HeaderFooter;
+			sourceTree = "<group>";
+		};
+		AE49E3421CCFC768009009E1 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				AE49E3431CCFC7B8009009E1 /* FANotification.xib */,
+				AE49E3451CCFC7D7009009E1 /* FANotification.h */,
+				AE49E3461CCFC7D7009009E1 /* FANotification.m */,
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
+		AE66C2601CCA770800252539 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AE49E3281CCE6D23009009E1 /* AdelleSans */,
+				AE66C2621CCA773200252539 /* San Francisco */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		AE769CDF1CCA567D00DBAE1B /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				AE7BD2751CCCF0FC00F8E3B7 /* FANavigationBar.xib */,
+				AE7BD2771CCCF14700F8E3B7 /* FANavigationBar.h */,
+				AE7BD2781CCCF14700F8E3B7 /* FANavigationBar.m */,
+				AE7BD27D1CCCFC2900F8E3B7 /* UINavigationBar+FANavigationBar.h */,
+				AE7BD27E1CCCFC2900F8E3B7 /* UINavigationBar+FANavigationBar.m */,
+			);
+			name = NavigationBar;
+			sourceTree = "<group>";
+		};
+		AE7BD2851CCD1EF900F8E3B7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AE49E32B1CCF5C8E009009E1 /* HeaderFooter */,
+				AE7BD2981CCD208300F8E3B7 /* FAContractDetailsCell.xib */,
+				AE7BD2861CCD1F2800F8E3B7 /* FAContractDetailsCell.h */,
+				AE7BD2871CCD1F2800F8E3B7 /* FAContractDetailsCell.m */,
+				AE7BD2991CCD208300F8E3B7 /* FAItemsCell.xib */,
+				AE7BD2891CCD1F6B00F8E3B7 /* FAItemsCell.h */,
+				AE7BD28A1CCD1F6B00F8E3B7 /* FAItemsCell.m */,
+				AE7BD2971CCD208300F8E3B7 /* FAClaimsCell.xib */,
+				AE7BD28F1CCD1FB100F8E3B7 /* FAClaimsCell.h */,
+				AE7BD2901CCD1FB100F8E3B7 /* FAClaimsCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		AEA558351CC8FD4C002B7994 = {
+			isa = PBXGroup;
+			children = (
+				AE1B43F81CD8EE6D0011B18F /* Framework */,
+				AEA558401CC8FD4C002B7994 /* fa-demo-insurance-app */,
+				AEA5585A1CC8FD4C002B7994 /* fa-demo-insurance-appTests */,
+				AEA558651CC8FD4C002B7994 /* fa-demo-insurance-appUITests */,
+				AEA5583F1CC8FD4C002B7994 /* Products */,
+				AE32CBF31E0160470062B7C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AEA5583F1CC8FD4C002B7994 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEA5583E1CC8FD4C002B7994 /* fa-demo-insurance-app.app */,
+				AEA558571CC8FD4C002B7994 /* fa-demo-insurance-appTests.xctest */,
+				AEA558621CC8FD4C002B7994 /* fa-demo-insurance-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEA558401CC8FD4C002B7994 /* fa-demo-insurance-app */ = {
+			isa = PBXGroup;
+			children = (
+				AE0FC51E1D93FD5F00B0053A /* fa-demo-insurance-app.entitlements */,
+				AE769CDF1CCA567D00DBAE1B /* NavigationBar */,
+				AEB6CAEC1CCA17A100C8F25E /* Controller */,
+				AEA558771CC90543002B7994 /* View */,
+				AEA558441CC8FD4C002B7994 /* AppDelegate.h */,
+				AEA558451CC8FD4C002B7994 /* AppDelegate.m */,
+				AE1B43F91CD8EEA80011B18F /* FAConstants.h */,
+				AE1B43FA1CD8EEA80011B18F /* FAConstants.m */,
+				AEA5584A1CC8FD4C002B7994 /* Main.storyboard */,
+				AEA5584D1CC8FD4C002B7994 /* Assets.xcassets */,
+				AEA5584F1CC8FD4C002B7994 /* LaunchScreen.storyboard */,
+				AEA558521CC8FD4C002B7994 /* Info.plist */,
+				AEA558411CC8FD4C002B7994 /* Supporting Files */,
+			);
+			path = "fa-demo-insurance-app";
+			sourceTree = "<group>";
+		};
+		AEA558411CC8FD4C002B7994 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE66C2601CCA770800252539 /* Fonts */,
+				AEA558421CC8FD4C002B7994 /* main.m */,
+				AEC814361D2A613B0026F164 /* Settings.bundle */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEA5585A1CC8FD4C002B7994 /* fa-demo-insurance-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEA5585B1CC8FD4C002B7994 /* fa_demo_insurance_appTests.m */,
+				AEA5585D1CC8FD4C002B7994 /* Info.plist */,
+			);
+			path = "fa-demo-insurance-appTests";
+			sourceTree = "<group>";
+		};
+		AEA558651CC8FD4C002B7994 /* fa-demo-insurance-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEA558661CC8FD4C002B7994 /* fa_demo_insurance_appUITests.m */,
+				AEA558681CC8FD4C002B7994 /* Info.plist */,
+			);
+			path = "fa-demo-insurance-appUITests";
+			sourceTree = "<group>";
+		};
+		AEA558771CC90543002B7994 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AE49E3421CCFC768009009E1 /* Notification */,
+				AE7BD2851CCD1EF900F8E3B7 /* Cell */,
+				AEA558781CC905E8002B7994 /* FALoginView.h */,
+				AEA558791CC905E8002B7994 /* FALoginView.m */,
+				AEA5587B1CC90609002B7994 /* FALoginView.xib */,
+				AE49E33D1CCFC56E009009E1 /* FADetailCarView.h */,
+				AE49E33E1CCFC56E009009E1 /* FADetailCarView.m */,
+				AE49E3401CCFC580009009E1 /* FADetailCarView.xib */,
+				AE49E34C1CD11BA4009009E1 /* FADetailPropertyView.h */,
+				AE49E34D1CD11BA4009009E1 /* FADetailPropertyView.m */,
+				AE49E34F1CD11BB7009009E1 /* FADetailPropertyView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		AEB6CAEC1CCA17A100C8F25E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AE7BD2721CCCF09400F8E3B7 /* FANavigationController.h */,
+				AE7BD2731CCCF09400F8E3B7 /* FANavigationController.m */,
+				AEB6CAED1CCA17E100C8F25E /* FAHomeViewController.h */,
+				AEB6CAEE1CCA17E100C8F25E /* FAHomeViewController.m */,
+				AE7BD2801CCD0B0700F8E3B7 /* FACategoryController.h */,
+				AE7BD2811CCD0B0700F8E3B7 /* FACategoryController.m */,
+				AE49E3381CCF6DFA009009E1 /* FADetailViewController.h */,
+				AE49E3391CCF6DFA009009E1 /* FADetailViewController.m */,
+				AE49E3521CD263DE009009E1 /* FATravelController.h */,
+				AE49E3531CD263DE009009E1 /* FATravelController.m */,
+				AE49E3551CD2700E009009E1 /* FATravelAddController.h */,
+				AE49E3561CD2700E009009E1 /* FATravelAddController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEA5583D1CC8FD4C002B7994 /* fa-demo-insurance-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA5586B1CC8FD4C002B7994 /* Build configuration list for PBXNativeTarget "fa-demo-insurance-app" */;
+			buildPhases = (
+				AEA5583A1CC8FD4C002B7994 /* Sources */,
+				AEA5583B1CC8FD4C002B7994 /* Frameworks */,
+				AEA5583C1CC8FD4C002B7994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fa-demo-insurance-app";
+			productName = "fa-demo-insurance-app";
+			productReference = AEA5583E1CC8FD4C002B7994 /* fa-demo-insurance-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEA558561CC8FD4C002B7994 /* fa-demo-insurance-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA5586E1CC8FD4C002B7994 /* Build configuration list for PBXNativeTarget "fa-demo-insurance-appTests" */;
+			buildPhases = (
+				AEA558531CC8FD4C002B7994 /* Sources */,
+				AEA558541CC8FD4C002B7994 /* Frameworks */,
+				AEA558551CC8FD4C002B7994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEA558591CC8FD4C002B7994 /* PBXTargetDependency */,
+			);
+			name = "fa-demo-insurance-appTests";
+			productName = "fa-demo-insurance-appTests";
+			productReference = AEA558571CC8FD4C002B7994 /* fa-demo-insurance-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEA558611CC8FD4C002B7994 /* fa-demo-insurance-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA558711CC8FD4C002B7994 /* Build configuration list for PBXNativeTarget "fa-demo-insurance-appUITests" */;
+			buildPhases = (
+				AEA5585E1CC8FD4C002B7994 /* Sources */,
+				AEA5585F1CC8FD4C002B7994 /* Frameworks */,
+				AEA558601CC8FD4C002B7994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEA558641CC8FD4C002B7994 /* PBXTargetDependency */,
+			);
+			name = "fa-demo-insurance-appUITests";
+			productName = "fa-demo-insurance-appUITests";
+			productReference = AEA558621CC8FD4C002B7994 /* fa-demo-insurance-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEA558361CC8FD4C002B7994 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = FollowAnalytics;
+				TargetAttributes = {
+					AEA5583D1CC8FD4C002B7994 = {
+						CreatedOnToolsVersion = 7.3;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					AEA558561CC8FD4C002B7994 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = AEA5583D1CC8FD4C002B7994;
+					};
+					AEA558611CC8FD4C002B7994 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = AEA5583D1CC8FD4C002B7994;
+					};
+				};
+			};
+			buildConfigurationList = AEA558391CC8FD4C002B7994 /* Build configuration list for PBXProject "fa-demo-insurance-app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEA558351CC8FD4C002B7994;
+			productRefGroup = AEA5583F1CC8FD4C002B7994 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEA5583D1CC8FD4C002B7994 /* fa-demo-insurance-app */,
+				AEA558561CC8FD4C002B7994 /* fa-demo-insurance-appTests */,
+				AEA558611CC8FD4C002B7994 /* fa-demo-insurance-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEA5583C1CC8FD4C002B7994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE49E3511CD255E9009009E1 /* LaunchScreen.storyboard in Resources */,
+				AE7BD29A1CCD208300F8E3B7 /* FAClaimsCell.xib in Resources */,
+				AE49E3441CCFC7B8009009E1 /* FANotification.xib in Resources */,
+				AE7BD2C91CCE383F00F8E3B7 /* AdelleSans-Bold.otf in Resources */,
+				AE49E3411CCFC580009009E1 /* FADetailCarView.xib in Resources */,
+				AE7BD2D71CCE384F00F8E3B7 /* AdelleSans-BoldItalic.otf in Resources */,
+				AE7BD2D81CCE384F00F8E3B7 /* AdelleSans-ExtraBold.otf in Resources */,
+				AE7BD2D91CCE384F00F8E3B7 /* AdelleSans-ExtraBoldItalic.otf in Resources */,
+				AE7BD2DA1CCE384F00F8E3B7 /* AdelleSans-Heavy.otf in Resources */,
+				AE7BD2DB1CCE384F00F8E3B7 /* AdelleSans-HeavyItalic.otf in Resources */,
+				AE7BD2DC1CCE384F00F8E3B7 /* AdelleSans-Italic.otf in Resources */,
+				AE7BD2DD1CCE384F00F8E3B7 /* AdelleSans-Light.otf in Resources */,
+				AE7BD2DE1CCE384F00F8E3B7 /* AdelleSans-LightItalic.otf in Resources */,
+				AE7BD2DF1CCE384F00F8E3B7 /* AdelleSans-Regular.otf in Resources */,
+				AE7BD2E01CCE384F00F8E3B7 /* AdelleSans-SemiBold.otf in Resources */,
+				AE7BD2E11CCE384F00F8E3B7 /* AdelleSans-SemiBoldItalic.otf in Resources */,
+				AE7BD2E21CCE384F00F8E3B7 /* AdelleSans-Thin.otf in Resources */,
+				AE7BD2E31CCE384F00F8E3B7 /* AdelleSans-ThinItalic.otf in Resources */,
+				AEA5584E1CC8FD4C002B7994 /* Assets.xcassets in Resources */,
+				AE7BD2A11CCD68CA00F8E3B7 /* FATableHeaderView.xib in Resources */,
+				AEC814371D2A613B0026F164 /* Settings.bundle in Resources */,
+				AE7BD29B1CCD208300F8E3B7 /* FAContractDetailsCell.xib in Resources */,
+				AE49E3501CD11BB7009009E1 /* FADetailPropertyView.xib in Resources */,
+				AE49E3331CCF5CEF009009E1 /* FATableFooterView.xib in Resources */,
+				AEA5584C1CC8FD4C002B7994 /* Main.storyboard in Resources */,
+				AEA5587C1CC90609002B7994 /* FALoginView.xib in Resources */,
+				AE7BD2761CCCF0FC00F8E3B7 /* FANavigationBar.xib in Resources */,
+				AE7BD29C1CCD208300F8E3B7 /* FAItemsCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA558551CC8FD4C002B7994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA558601CC8FD4C002B7994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEA5583A1CC8FD4C002B7994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE49E33A1CCF6DFA009009E1 /* FADetailViewController.m in Sources */,
+				AE49E3471CCFC7D7009009E1 /* FANotification.m in Sources */,
+				AE7BD2911CCD1FB100F8E3B7 /* FAClaimsCell.m in Sources */,
+				AEB6CAEF1CCA17E100C8F25E /* FAHomeViewController.m in Sources */,
+				AE49E3541CD263DE009009E1 /* FATravelController.m in Sources */,
+				AE49E34E1CD11BA4009009E1 /* FADetailPropertyView.m in Sources */,
+				AE49E3571CD2700E009009E1 /* FATravelAddController.m in Sources */,
+				AEA558461CC8FD4C002B7994 /* AppDelegate.m in Sources */,
+				AE7BD2821CCD0B0700F8E3B7 /* FACategoryController.m in Sources */,
+				AE7BD28B1CCD1F6B00F8E3B7 /* FAItemsCell.m in Sources */,
+				AE49E33F1CCFC56E009009E1 /* FADetailCarView.m in Sources */,
+				AE7BD29F1CCD68AA00F8E3B7 /* FATableHeaderView.m in Sources */,
+				AE1B43FB1CD8EEA80011B18F /* FAConstants.m in Sources */,
+				AEA558431CC8FD4C002B7994 /* main.m in Sources */,
+				AE7BD2741CCCF09400F8E3B7 /* FANavigationController.m in Sources */,
+				AE7BD27F1CCCFC2900F8E3B7 /* UINavigationBar+FANavigationBar.m in Sources */,
+				AE7BD2791CCCF14700F8E3B7 /* FANavigationBar.m in Sources */,
+				AEA5587A1CC905E8002B7994 /* FALoginView.m in Sources */,
+				AE7BD2881CCD1F2800F8E3B7 /* FAContractDetailsCell.m in Sources */,
+				AE49E3311CCF5CC7009009E1 /* FATableFooterView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA558531CC8FD4C002B7994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA5585C1CC8FD4C002B7994 /* fa_demo_insurance_appTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA5585E1CC8FD4C002B7994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA558671CC8FD4C002B7994 /* fa_demo_insurance_appUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEA558591CC8FD4C002B7994 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEA5583D1CC8FD4C002B7994 /* fa-demo-insurance-app */;
+			targetProxy = AEA558581CC8FD4C002B7994 /* PBXContainerItemProxy */;
+		};
+		AEA558641CC8FD4C002B7994 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEA5583D1CC8FD4C002B7994 /* fa-demo-insurance-app */;
+			targetProxy = AEA558631CC8FD4C002B7994 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEA5584A1CC8FD4C002B7994 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEA5584B1CC8FD4C002B7994 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEA5584F1CC8FD4C002B7994 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEA558501CC8FD4C002B7994 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEA558691CC8FD4C002B7994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AEA5586A1CC8FD4C002B7994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEA5586C1CC8FD4C002B7994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "fa-demo-insurance-app/fa-demo-insurance-app.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Raphaël El Beze (ARWHU68ZA3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "fa-demo-insurance-app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-objC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.followanalytics.herokudemo.YOUREXT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				STRIP_STYLE = debugging;
+			};
+			name = Debug;
+		};
+		AEA5586D1CC8FD4C002B7994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "fa-demo-insurance-app/fa-demo-insurance-app.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Follow Apps";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "fa-demo-insurance-app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-objC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.followanalytics.herokudemo.YOUREXT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				STRIP_STYLE = debugging;
+			};
+			name = Release;
+		};
+		AEA5586F1CC8FD4C002B7994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "fa-demo-insurance-appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "follow-apps.fa-demo-insurance-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fa-demo-insurance-app.app/fa-demo-insurance-app";
+			};
+			name = Debug;
+		};
+		AEA558701CC8FD4C002B7994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "fa-demo-insurance-appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "follow-apps.fa-demo-insurance-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fa-demo-insurance-app.app/fa-demo-insurance-app";
+			};
+			name = Release;
+		};
+		AEA558721CC8FD4C002B7994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "fa-demo-insurance-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "follow-apps.fa-demo-insurance-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "fa-demo-insurance-app";
+			};
+			name = Debug;
+		};
+		AEA558731CC8FD4C002B7994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "fa-demo-insurance-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "follow-apps.fa-demo-insurance-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "fa-demo-insurance-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEA558391CC8FD4C002B7994 /* Build configuration list for PBXProject "fa-demo-insurance-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA558691CC8FD4C002B7994 /* Debug */,
+				AEA5586A1CC8FD4C002B7994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEA5586B1CC8FD4C002B7994 /* Build configuration list for PBXNativeTarget "fa-demo-insurance-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA5586C1CC8FD4C002B7994 /* Debug */,
+				AEA5586D1CC8FD4C002B7994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEA5586E1CC8FD4C002B7994 /* Build configuration list for PBXNativeTarget "fa-demo-insurance-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA5586F1CC8FD4C002B7994 /* Debug */,
+				AEA558701CC8FD4C002B7994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEA558711CC8FD4C002B7994 /* Build configuration list for PBXNativeTarget "fa-demo-insurance-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA558721CC8FD4C002B7994 /* Debug */,
+				AEA558731CC8FD4C002B7994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEA558361CC8FD4C002B7994 /* Project object */;
+}

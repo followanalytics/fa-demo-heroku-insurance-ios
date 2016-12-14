@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="AdelleSans-Italic.otf">
+            <string>AdelleSans-Italic</string>
+            <string>AdelleSans-Italic</string>
+            <string>AdelleSans-Italic</string>
+        </mutableArray>
+        <mutableArray key="AdelleSans-Regular.otf">
+            <string>AdelleSans-Regular</string>
+            <string>AdelleSans-Regular</string>
+            <string>AdelleSans-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="FAContractDetailsCell" rowHeight="128" id="icy-0M-QXq" customClass="FAContractDetailsCell">
+            <rect key="frame" x="0.0" y="0.0" width="397" height="128"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="icy-0M-QXq" id="N42-Fn-P0U">
+                <rect key="frame" x="0.0" y="0.0" width="397" height="127.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contract Reference: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ydx-Xe-3rn">
+                        <rect key="frame" x="13" y="13" width="147" height="20"/>
+                        <fontDescription key="fontDescription" name="AdelleSans-Italic" family="Adelle Sans" pointSize="16"/>
+                        <color key="textColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Renewal Date: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3po-70-qYI" userLabel="renewald Date Label">
+                        <rect key="frame" x="13" y="38" width="106.5" height="20"/>
+                        <fontDescription key="fontDescription" name="AdelleSans-Italic" family="Adelle Sans" pointSize="16"/>
+                        <color key="textColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TO9-HP-1g5">
+                        <rect key="frame" x="13" y="63" width="44" height="20"/>
+                        <fontDescription key="fontDescription" name="AdelleSans-Italic" family="Adelle Sans" pointSize="16"/>
+                        <color key="textColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jsQ-3B-cgF">
+                        <rect key="frame" x="163" y="13" width="39.5" height="20"/>
+                        <fontDescription key="fontDescription" name="AdelleSans-Regular" family="Adelle Sans" pointSize="16"/>
+                        <color key="textColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D2n-rT-Saq">
+                        <rect key="frame" x="122.5" y="37.5" width="39.5" height="20"/>
+                        <fontDescription key="fontDescription" name="AdelleSans-Regular" family="Adelle Sans" pointSize="16"/>
+                        <color key="textColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1w4-fx-Yyh">
+                        <rect key="frame" x="60" y="62.5" width="39.5" height="20"/>
+                        <fontDescription key="fontDescription" name="AdelleSans-Regular" family="Adelle Sans" pointSize="16"/>
+                        <color key="textColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1w4-fx-Yyh" firstAttribute="centerY" secondItem="TO9-HP-1g5" secondAttribute="centerY" id="8s5-HB-K3f"/>
+                    <constraint firstItem="TO9-HP-1g5" firstAttribute="top" secondItem="3po-70-qYI" secondAttribute="bottom" constant="5" id="9B8-nd-wAf"/>
+                    <constraint firstItem="jsQ-3B-cgF" firstAttribute="centerY" secondItem="ydx-Xe-3rn" secondAttribute="centerY" id="EJD-6I-Yiu"/>
+                    <constraint firstItem="D2n-rT-Saq" firstAttribute="centerY" secondItem="3po-70-qYI" secondAttribute="centerY" id="HCM-IJ-nQr"/>
+                    <constraint firstItem="TO9-HP-1g5" firstAttribute="leading" secondItem="N42-Fn-P0U" secondAttribute="leadingMargin" constant="5" id="J8D-Ua-Sr8"/>
+                    <constraint firstItem="jsQ-3B-cgF" firstAttribute="leading" secondItem="ydx-Xe-3rn" secondAttribute="trailing" constant="3" id="Qfo-iX-cdl"/>
+                    <constraint firstItem="D2n-rT-Saq" firstAttribute="leading" secondItem="3po-70-qYI" secondAttribute="trailing" constant="3" id="VEv-CR-FNl"/>
+                    <constraint firstItem="ydx-Xe-3rn" firstAttribute="top" secondItem="N42-Fn-P0U" secondAttribute="topMargin" constant="5" id="VPg-sL-yb2"/>
+                    <constraint firstItem="ydx-Xe-3rn" firstAttribute="leading" secondItem="N42-Fn-P0U" secondAttribute="leadingMargin" constant="5" id="VQn-TZ-1mA"/>
+                    <constraint firstItem="3po-70-qYI" firstAttribute="leading" secondItem="N42-Fn-P0U" secondAttribute="leadingMargin" constant="5" id="eqw-ff-Pam"/>
+                    <constraint firstItem="1w4-fx-Yyh" firstAttribute="leading" secondItem="TO9-HP-1g5" secondAttribute="trailing" constant="3" id="jxk-1c-Zx8"/>
+                    <constraint firstItem="ydx-Xe-3rn" firstAttribute="top" secondItem="N42-Fn-P0U" secondAttribute="topMargin" constant="10" id="vUI-OM-rKa"/>
+                    <constraint firstItem="3po-70-qYI" firstAttribute="top" secondItem="ydx-Xe-3rn" secondAttribute="bottom" constant="5" id="y9a-yv-0uJ"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="vUI-OM-rKa"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="contractReferenceLabel" destination="jsQ-3B-cgF" id="lXZ-0A-N2D"/>
+                <outlet property="priceLabel" destination="1w4-fx-Yyh" id="YIF-uG-bbo"/>
+                <outlet property="renewaldDateLabel" destination="D2n-rT-Saq" id="mD9-bV-JoU"/>
+            </connections>
+            <point key="canvasLocation" x="343.5" y="325"/>
+        </tableViewCell>
+    </objects>
+</document>

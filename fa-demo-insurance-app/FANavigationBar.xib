@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="AdelleSans-Light.otf">
+            <string>AdelleSans-Light</string>
+            <string>AdelleSans-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="qQz-95-Mdd" customClass="FANavigationBar">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="324"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="THb-QA-TKn">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="324"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FALogo" translatesAutoresizingMaskIntoConstraints="NO" id="GIz-pG-IZa">
+                    <rect key="frame" x="47" y="44" width="250" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="GIz-pG-IZa" secondAttribute="height" multiplier="157:24" id="jVy-Cq-Wra"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="27h-c2-ily">
+                    <rect key="frame" x="20" y="254" width="75" height="22.5"/>
+                    <fontDescription key="fontDescription" name="AdelleSans-Light" family="Adelle Sans" pointSize="18"/>
+                    <color key="textColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Everything looks good." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xtq-1v-TSo">
+                    <rect key="frame" x="20" y="281" width="180.5" height="22.5"/>
+                    <fontDescription key="fontDescription" name="AdelleSans-Light" family="Adelle Sans" pointSize="18"/>
+                    <color key="textColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="COc-KH-Gj9">
+                    <rect key="frame" x="320" y="43" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="COc-KH-Gj9" secondAttribute="height" multiplier="1:1" id="8rM-mN-a2U"/>
+                        <constraint firstAttribute="width" secondItem="COc-KH-Gj9" secondAttribute="height" multiplier="1:1" id="UGL-Vq-Tl4"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="UGL-Vq-Tl4"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <button hidden="YES" autoresizesSubviews="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H0o-NJ-gpP">
+                    <rect key="frame" x="10" y="1" width="48" height="48"/>
+                    <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="17s-dH-HyU"/>
+                        <constraint firstAttribute="width" constant="48" id="FCs-e4-LZB"/>
+                    </constraints>
+                    <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="10" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="14" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" image="crossIcon"/>
+                    <connections>
+                        <action selector="popOverModal:" destination="-2" eventType="touchUpInside" id="okD-Cv-DTk"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tKk-bM-VPL">
+                    <rect key="frame" x="320" y="43" width="40" height="40"/>
+                    <connections>
+                        <action selector="logOutPush:" destination="qQz-95-Mdd" eventType="touchUpInside" id="m8S-Jp-XuQ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="GIz-pG-IZa" firstAttribute="centerX" secondItem="qQz-95-Mdd" secondAttribute="centerX" constant="-15" id="2yx-7b-UzQ"/>
+                <constraint firstItem="tKk-bM-VPL" firstAttribute="centerY" secondItem="COc-KH-Gj9" secondAttribute="centerY" id="5fA-NL-HGn"/>
+                <constraint firstAttribute="bottom" secondItem="27h-c2-ily" secondAttribute="bottom" constant="20" symbolic="YES" id="7iR-uR-2lv"/>
+                <constraint firstItem="27h-c2-ily" firstAttribute="leading" secondItem="qQz-95-Mdd" secondAttribute="leading" constant="20" id="8HA-5U-SGf"/>
+                <constraint firstItem="THb-QA-TKn" firstAttribute="top" secondItem="qQz-95-Mdd" secondAttribute="top" id="Ad1-l6-is3"/>
+                <constraint firstItem="GIz-pG-IZa" firstAttribute="leading" secondItem="H0o-NJ-gpP" secondAttribute="trailing" constant="4.5" id="BAV-Yx-m6J"/>
+                <constraint firstItem="tKk-bM-VPL" firstAttribute="centerX" secondItem="COc-KH-Gj9" secondAttribute="centerX" id="C1o-qP-x2c"/>
+                <constraint firstItem="THb-QA-TKn" firstAttribute="height" secondItem="qQz-95-Mdd" secondAttribute="height" id="D3p-E2-5KV"/>
+                <constraint firstItem="GIz-pG-IZa" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="THb-QA-TKn" secondAttribute="leading" constant="15" id="FbX-3i-iUx"/>
+                <constraint firstItem="GIz-pG-IZa" firstAttribute="centerX" secondItem="qQz-95-Mdd" secondAttribute="centerX" id="Gv1-5F-eKg"/>
+                <constraint firstAttribute="bottom" secondItem="Xtq-1v-TSo" secondAttribute="bottom" constant="20" id="La8-wf-ceR"/>
+                <constraint firstAttribute="trailing" secondItem="COc-KH-Gj9" secondAttribute="trailing" constant="15" id="O1V-pV-7Kj"/>
+                <constraint firstItem="THb-QA-TKn" firstAttribute="leading" secondItem="qQz-95-Mdd" secondAttribute="leading" id="PiV-6t-iW4"/>
+                <constraint firstAttribute="trailing" secondItem="COc-KH-Gj9" secondAttribute="trailing" constant="5" id="QuM-85-pmf"/>
+                <constraint firstItem="Xtq-1v-TSo" firstAttribute="top" secondItem="27h-c2-ily" secondAttribute="bottom" constant="5" id="WXK-8I-bps"/>
+                <constraint firstItem="H0o-NJ-gpP" firstAttribute="leading" secondItem="qQz-95-Mdd" secondAttribute="leading" constant="10" id="Yec-1t-Yma"/>
+                <constraint firstItem="GIz-pG-IZa" firstAttribute="top" secondItem="qQz-95-Mdd" secondAttribute="top" constant="20" id="ZJZ-Zb-Je0"/>
+                <constraint firstItem="COc-KH-Gj9" firstAttribute="top" secondItem="qQz-95-Mdd" secondAttribute="top" constant="20" id="Zxh-VX-Pbd"/>
+                <constraint firstItem="GIz-pG-IZa" firstAttribute="top" secondItem="qQz-95-Mdd" secondAttribute="top" constant="44" id="afx-Wn-u65"/>
+                <constraint firstItem="COc-KH-Gj9" firstAttribute="leading" secondItem="GIz-pG-IZa" secondAttribute="trailing" constant="22.5" id="aza-Bu-Tjy"/>
+                <constraint firstItem="THb-QA-TKn" firstAttribute="width" secondItem="qQz-95-Mdd" secondAttribute="width" id="bBe-XK-qnR"/>
+                <constraint firstItem="COc-KH-Gj9" firstAttribute="centerY" secondItem="GIz-pG-IZa" secondAttribute="centerY" id="j5Z-di-b2k"/>
+                <constraint firstItem="H0o-NJ-gpP" firstAttribute="top" secondItem="qQz-95-Mdd" secondAttribute="top" constant="1" id="rgH-WC-PBh"/>
+                <constraint firstItem="tKk-bM-VPL" firstAttribute="width" secondItem="COc-KH-Gj9" secondAttribute="width" id="uNx-cM-vdU"/>
+                <constraint firstItem="tKk-bM-VPL" firstAttribute="height" secondItem="COc-KH-Gj9" secondAttribute="height" id="xCF-tg-zKk"/>
+                <constraint firstItem="Xtq-1v-TSo" firstAttribute="leading" secondItem="qQz-95-Mdd" secondAttribute="leading" constant="20" id="yW8-Dc-IFT"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="BAV-Yx-m6J"/>
+                    <exclude reference="Gv1-5F-eKg"/>
+                    <exclude reference="ZJZ-Zb-Je0"/>
+                    <exclude reference="7iR-uR-2lv"/>
+                    <exclude reference="QuM-85-pmf"/>
+                    <exclude reference="Zxh-VX-Pbd"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="backgroundImageView" destination="THb-QA-TKn" id="Tpr-69-kA8"/>
+                <outlet property="cancelButton" destination="H0o-NJ-gpP" id="0zh-Sd-GT8"/>
+                <outlet property="logoView" destination="GIz-pG-IZa" id="ayV-uh-g0F"/>
+                <outlet property="userImageView" destination="COc-KH-Gj9" id="1Ei-xg-2Mf"/>
+                <outlet property="welcom2Label" destination="Xtq-1v-TSo" id="OLM-ji-pcC"/>
+                <outlet property="welcomLabel" destination="27h-c2-ily" id="NjG-hT-KHQ"/>
+            </connections>
+            <point key="canvasLocation" x="286" y="-174"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Background" width="125" height="222"/>
+        <image name="FALogo" width="250" height="38"/>
+        <image name="crossIcon" width="15" height="16"/>
+    </resources>
+</document>
