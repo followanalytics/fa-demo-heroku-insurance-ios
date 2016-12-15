@@ -25,6 +25,8 @@
     // Override point for customization after application launch.
     [FAFollowApps configureWithId:FAInsuranceSDKAPIKey debugStateOn:NO options:launchOptions];
     [FAFollowApps registerForPush];
+    // make data reach the server as soon as possible
+    [FAFollowApps setMaxBackgroundTimeWithinSession:0];
     
     [[NSUserDefaults standardUserDefaults] synchronize];
     if (![[NSUserDefaults standardUserDefaults] valueForKey:FAInsuranceUserId])
